@@ -1,0 +1,159 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Oizzram",
+      "email": "oizzram1@gmail.com",
+      "password": "Lamus1ca",
+      "type": "normal"
+    },
+    {
+      "id": 2,
+      "username": "Marx",
+      "email": "abcd@gmail.com",
+      "password": "12345",
+      "type": "manager"
+    },
+    {
+      "username": "marzx",
+      "email": "oizzram2@gmail.com",
+      "password": "123456789",
+      "type": "normal",
+      "id": 3
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "name": "The event 1",
+      "description": "The best event have exist forever",
+      "price": 29.36,
+      "image": "https://www.bbva.com/wp-content/uploads/2020/05/festival2.jpg",
+      "event_date": "12-12-2020",
+      "start_time": "12:00",
+      "end_time": "14:00",
+      "manager_id": 2
+    },
+    {
+      "id": 2,
+      "name": "The event 2",
+      "description": "The best event have exist forever",
+      "price": 30.78,
+      "image": "https://www.consumer.es/app/uploads/2018/03/cumpleanos-barato.jpg",
+      "date": "12-12-2020",
+      "start_time": "12:00",
+      "end_time": "14:00",
+      "manager_id": 2
+    },
+    {
+      "id": 3,
+      "name": "The event 3",
+      "description": "The best event have exist forever",
+      "price": 19.63,
+      "image": "https://www.trecebits.com/wp-content/uploads/2019/11/boda.jpg",
+      "date": "12-12-2020",
+      "start_time": "12:00",
+      "end_time": "14:00",
+      "manager_id": 3
+    },
+    {
+      "id": 4,
+      "name": "The event 4",
+      "description": "The best event have exist forever",
+      "price": 47.89,
+      "image": "https://wp.es.aleteia.org/wp-content/uploads/sites/7/2019/01/web3-social-events-food-advice-health-weight-problems-shutterstock_438050224-rawpixel.com-ai.jpg",
+      "date": "12-12-2020",
+      "start_time": "12:00",
+      "end_time": "14:00",
+      "manager_id": 2
+    },
+    {
+      "id": 5,
+      "name": "The event 5",
+      "description": "The best event have exist forever",
+      "price": 234,
+      "image": "https://www.esneca.com/wp-content/uploads/eventos-sociales.jpg",
+      "date": "12-12-2020",
+      "start_time": "12:00",
+      "end_time": "14:00",
+      "manager_id": 2
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "card_number": "1234567891123456",
+      "type": "VISA",
+      "direction": "Jr. Sanchez Cerro",
+      "phone": 992707622,
+      "user_name": "Marzzio",
+      "user_lastname": "Chicana",
+      "country": "Peru",
+      "expiry_date": "12/23",
+      "security_code": 123,
+      "postal_code": 51,
+      "user_id": 1,
+      "event_id": 3
+    },
+    {
+      "id": 2,
+      "card_number": "1234567891234567",
+      "type": "MASTER CARD",
+      "direction": "Jr. Lenin",
+      "phone": 940509105,
+      "user_name": "Braulio",
+      "user_lastname": "Romero",
+      "country": "Peru",
+      "expiry_date": "14/22",
+      "security_code": 234,
+      "postal_code": 51,
+      "user_id": 1,
+      "event_id": 2
+    },
+    {
+      "id": 3,
+      "card_number": "1234567891345678",
+      "type": "PAYPAL",
+      "direction": "Av. Revolucion",
+      "phone": 944250986,
+      "user_name": "Julio",
+      "user_lastname": "Chicana",
+      "country": "Peru",
+      "expiry_date": "14/24",
+      "security_code": 678,
+      "postal_code": 51,
+      "user_id": 1,
+      "event_id": 1
+    },
+    {
+      "id": 4,
+      "card_number": "22222222222222222",
+      "type": "VISA",
+      "direction": "Av. Revolucion con Lenin",
+      "phone": 987234111,
+      "user_name": "Daira",
+      "user_lastname": "Romero",
+      "country": "Peru",
+      "expiry_date": "11/27",
+      "security_code": 155,
+      "postal_code": 51,
+      "user_id": 2,
+      "event_id": 4
+    },
+    {
+      "id": 5,
+      "card_number": "1234567891345678",
+      "type": "PAYPAL",
+      "direction": "Av. Revolucion",
+      "phone": 944250986,
+      "user_name": "Julio",
+      "user_lastname": "Chicana",
+      "country": "Peru",
+      "expiry_date": "14/24",
+      "security_code": 678,
+      "postal_code": 51,
+      "user_id": 1,
+      "event_id": 1
+    }
+  ]
+}
